@@ -1,0 +1,26 @@
+{
+  "name": "native-xhr-plugin",
+  "version": "1.0.0",
+  "description": "Native XHR requests for IOS WkWebView",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "native",
+    "xhr",
+    "request",
+    "ios",
+    "wkwebview"
+  ],
+  "author": "tim huelsmeier",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COMLINE-AG/native-xhr-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/COMLINE-AG/native-xhr-plugin/issues"
+  },
+  "homepage": "https://github.com/COMLINE-AG/native-xhr-plugin#readme"
+}
