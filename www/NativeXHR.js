@@ -2,11 +2,11 @@ var NativeXHR = function () {
 };
 
 NativeXHR.executeXHR = function (xhrURL, successCallback, errorCallback) {
-	if (typeof successCallback != 'function') {
+	if (typeof successCallback !== 'function') {
 		throw new Error('NativeXHR Error: successCallback is not a function');
 	}
 
-	if (typeof errorCallback != 'function') {
+	if (typeof errorCallback !== 'function') {
 		throw new Error('NativeXHR Error: errorCallback is not a function');
 	}
 
