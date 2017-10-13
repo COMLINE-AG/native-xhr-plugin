@@ -6,6 +6,11 @@
 	<license>MIT</license>
 	<keywords>native.xhr</keywords>
 
+
+	<js-module src="www/NativeXHR.js" name="NativeXHR">
+		<clobbers target="cordova.plugins.nativexhr"/>
+	</js-module>
+
 	<!-- ios -->
 	<platform name="ios">
 		<config-file target="config.xml" parent="/*">
