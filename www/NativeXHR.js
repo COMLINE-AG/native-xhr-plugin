@@ -10,7 +10,7 @@ NativeXHR.executeXHR = function (xhrURL, successCallback, errorCallback) {
 		throw new Error('NativeXHR Error: errorCallback is not a function');
 	}
 
-	return cordova.exec(successCallback, failureCallback, 'NativeXHR', 'executeXHR', [xhrURL]);
+	return cordova.exec(successCallback, errorCallback, 'NativeXHR', 'executeXHR', [xhrURL]);
 };
 
 module.exports = NativeXHR;
