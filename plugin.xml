@@ -8,6 +8,12 @@
 
 	<!-- ios -->
 	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="NativeXHR">
+				<param name="ios-package" value="NativeXHR"/>
+			</feature>
+		</config-file>
+
 		<header-file src="src/ios/NativeXHR.h" />
 		<source-file src="src/ios/NativeXHR.m" />
 	</platform>
