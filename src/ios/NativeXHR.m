@@ -1,5 +1,7 @@
-#import NativeXHR.h
-#import <Cordova/CDVPlugin.h>
+#import "NativeXHR.h"
+#import <Cordova/CDV.h>
+
+@implementation NativeXHR
 
 - (void)executeXHR:(CDVInvokedUrlCommand *)command {
     NSString *urlStr = command.arguments[0];
@@ -32,3 +34,5 @@
         [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
     }] resume];
 }
+
+@end
