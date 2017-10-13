@@ -1,7 +1,7 @@
 var NativeXHR = function () {
 };
 
-ImageSaver.executeXHR = function (xhrURL, successCallback, errorCallback) {
+NativeXHR.executeXHR = function (xhrURL, successCallback, errorCallback) {
 	if (typeof successCallback != 'function') {
 		throw new Error('NativeXHR Error: successCallback is not a function');
 	}
