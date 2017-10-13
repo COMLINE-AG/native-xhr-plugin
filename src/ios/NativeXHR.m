@@ -1,4 +1,7 @@
-#import NativeXHR.h
+#import "NativeXHR.h"
+#import <Cordova/CDV.h>
+
+@implementation NativeXHR
 
 - (void)executeXHR:(CDVInvokedUrlCommand *)command {
     NSString *urlStr = command.arguments[0];
