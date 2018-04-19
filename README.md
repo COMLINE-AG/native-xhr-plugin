@@ -11,7 +11,7 @@ To make this workaround work, u need to make a native request to your backend an
 Usage:
 
 ```JavaScript
-cordova.plugins.nativeXhr.executeXHR("URL", function () {
+cordova.plugins.nativexhr.executeXHR("URL", function () {
   // Do something after the request was successful...
 }, function (error) {
   // Do something on Error...
